@@ -1,6 +1,5 @@
 [
   "redis-brain.coffee",
   "shipit.coffee",
-  "karma.coffee",
   "weather.coffee"
 ]
