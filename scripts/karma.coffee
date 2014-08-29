@@ -84,7 +84,8 @@ module.exports = (robot) ->
   karma = new Karma robot
 
   allow_self = true
-  allow_self = process.env.KARMA_ALLOW_SELF if process.env.KARMA_ALLOW_SELF?
+  allow_self = process.env.KARMA_ALLOW_SELF == 'true' \
+    if process.env.KARMA_ALLOW_SELF?
 
   robot.hear /(\S+[^+:\s])[: ]*\+\+(\s|$)/, (msg) ->
     subject = msg.match[1].toLowerCase()
