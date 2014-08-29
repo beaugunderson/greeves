@@ -24,7 +24,8 @@
     "hubot": "2.6.4",
     "hubot-hipchat": "~2.5.1-4",
     "hubot-scripts": "2.5.7",
-    "jsdom": "~0.8.9"
+    "jsdom": "~0.8.9",
+    "unique-random": "^0.1.1"
   },
   "engines": {
     "node": ">= 0.8.x",
